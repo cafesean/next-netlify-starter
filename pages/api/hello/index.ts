@@ -10,8 +10,8 @@ export default async function userHandler(
 	res: NextApiResponse
 ) {
 
-	const a = attachContract(address, contract);
-	res.status(200).json({ abi: a });
+	const abi = attachContract(address, contract);
+	res.status(200).json({ abi: abi });
 }
 
 async function attachContract(address: string, contract: string) {
