@@ -33,6 +33,7 @@
 		"@nomicfoundation/hardhat-toolbox": "^2.0.2",
 		"@types/node": "^18.15.0",
 		"@types/react": "18.0.28",
+		"cypress": "^12.7.0",
 		"hardhat": "^2.13.0",
 		"netlify-cli": "^13.1.2",
 		"netlify-plugin-cypress": "^2.2.1",
