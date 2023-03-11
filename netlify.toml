@@ -1,3 +1,6 @@
 [build]
   command = "pnpm build"
   publish = ".next"
+# Include all files in all functions
+[functions]
+  included_files = ["contracts/**","hardhat.config.js","cache/**"]
