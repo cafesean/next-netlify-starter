@@ -3,4 +3,4 @@
   publish = ".next"
 # Include all files in all functions
 [functions]
-  included_files = ["contracts/**","hardhat.config.js","cache/**"]
+  included_files = ["contracts/**", "cache/**"]
