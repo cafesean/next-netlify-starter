@@ -101,7 +101,7 @@
 		"isolatedModules": true,
 		"jsx": "preserve"
 	},
-	"include": ["**/*.js", "next-env.d.ts", "**/*.ts", "**/*.tsx"],
+	"include": ["**/*.js", "next-env.d.ts", "**/*.ts", "**/*.tsx", "contracts/**.*.*", "cache/**/*.*" ],
 	"exclude": ["node_modules"],
 	"files": ["hardhat.config.js"]
 }
